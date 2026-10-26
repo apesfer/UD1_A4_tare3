@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grupos de edades - tabla con scope</title>
+	<link rel="stylesheet" href="UD1_A4_tarea3_scope.css">
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th class="edades" scope="col" rowspan="2">Grupos de edades</th>
+				<th class="hombres-grupo" scope="colgroup" colspan="2">Hombres</th>
+				<th class="mujeres-grupo" scope="colgroup" colspan="2">Mujeres</th>
+			</tr>
+			<tr>
+				<th class="hombres-dato" scope="col">Num</th>
+				<th class="hombres-dato" scope="col">%</th>
+				<th class="mujeres-dato" scope="col">Num</th>
+				<th class="mujeres-dato" scope="col">%</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th class="edades" scope="row">8-16</th>
+				<td class="hombres-dato">16</td><td class="hombres-dato">14.5</td>
+				<td class="mujeres-dato">10</td><td class="mujeres-dato">9</td>
+			</tr>
+			<tr>
+				<th class="edades" scope="row">17-23</th>
+				<td class="hombres-dato">8</td><td class="hombres-dato">7</td>
+				<td class="mujeres-dato">13</td><td class="mujeres-dato">11.5</td>
+			</tr>
+			<tr>
+				<th class="edades" scope="row">24-38</th>
+				<td class="hombres-dato">15</td><td class="hombres-dato">14</td>
+				<td class="mujeres-dato">8</td><td class="mujeres-dato">7</td>
+			</tr>
+			<tr>
+				<th class="edades" scope="row">39-56</th>
+				<td class="hombres-dato">21</td><td class="hombres-dato">19</td>
+				<td class="mujeres-dato">19</td><td class="mujeres-dato">17</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

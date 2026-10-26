@@ -1,0 +1,31 @@
+table {
+	border-collapse: collapse;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+th,
+td {
+	border: 1px solid #777;
+	padding: 8px;
+}
+
+.edades {
+	background-color: #BBBBFF;
+}
+
+.hombres-grupo {
+	background-color: #FFBBBB;
+}
+
+.hombres-dato {
+	background-color: #FFCCCC;
+}
+
+.mujeres-grupo {
+	background-color: #AAFFAA;
+}
+
+.mujeres-dato {
+	background-color: #BBFFBB;
+}
